@@ -2,7 +2,7 @@
 
 A voice-based AI receptionist powered by LiveKit, LLMs, and real-time speech processing. This project demonstrates a production-ready conversational AI system that can manage CRM operations through natural voice interaction.
 
-## 🎯 Overview
+##  Overview
 
 **Virtual Receptionist for CRM** is an intelligent voice assistant that handles customer relationship management tasks through natural conversation. Built with cutting-edge AI technologies, it provides a seamless interface for:
 
@@ -14,15 +14,15 @@ A voice-based AI receptionist powered by LiveKit, LLMs, and real-time speech pro
 
 ### Key Features
 
-✨ **Voice-First Interface** - Natural conversation, no typing needed
-🧠 **Intelligent Agent** - Powered by Llama 3.2 LLM with function calling
-🎤 **High-Quality Speech Processing** - AssemblyAI STT + Kokoro TTS
-💬 **Context-Aware** - Maintains conversation history for natural interactions
-🔧 **CRM Integration** - Direct database operations for contacts, notes, and tasks
-⚡ **Real-time Communication** - WebRTC via LiveKit for low-latency voice
-📦 **Modular Architecture** - Clean separation of concerns for extensibility
+ **Voice-First Interface** - Natural conversation, no typing needed
+ **Intelligent Agent** - Powered by Llama 3.2 LLM with function calling
+ **High-Quality Speech Processing** - AssemblyAI STT + Kokoro TTS
+ **Context-Aware** - Maintains conversation history for natural interactions
+ **CRM Integration** - Direct database operations for contacts, notes, and tasks
+ **Real-time Communication** - WebRTC via LiveKit for low-latency voice
+ **Modular Architecture** - Clean separation of concerns for extensibility
 
-## 🏗️ Architecture
+##  Architecture
 
 The system is built with clear separation of layers:
 
@@ -81,7 +81,7 @@ python src/main_livekit.py
 
 See [SETUP.md](docs/SETUP.md) for detailed installation and configuration instructions.
 
-## 📋 System Components
+##  System Components
 
 ### Core Modules
 
@@ -121,7 +121,7 @@ The agent can call these CRM tools automatically:
    - Create new task or list existing tasks
    - Due date format: YYYY-MM-DD
 
-## 💻 Usage Examples
+##  Usage Examples
 
 ### Example Conversation
 
@@ -137,7 +137,7 @@ The agent can call these CRM tools automatically:
 **User**: "Create a task for John: Follow up call, due February 15th"
 **Agent**: "Created task for John Smith: Follow up call (due: 2025-02-15)"
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Technology | Why |
 |-----------|-----------|-----|
@@ -150,14 +150,14 @@ The agent can call these CRM tools automatically:
 | **Database** | SQLite | Lightweight, file-based storage |
 | **Runtime** | Python async | Fast non-blocking I/O |
 
-## 📊 Performance
+##  Performance
 
 - **Latency**: ~3-5 seconds end-to-end (STT + LLM + TTS)
 - **Database Operations**: <200ms for typical queries
 - **Tool Execution**: <100ms for most operations
 - **Cost**: ~$0.05-0.10 per minute of conversation
 
-## 🔧 Development
+##  Development
 
 ### Project Structure
 
@@ -296,4 +296,5 @@ This project demonstrates:
 ---
 
 Made with [LiveKit](https://livekit.io) • [OpenRouter](https://openrouter.ai) • [LangGraph](https://langchain-ai.github.io/langgraph/) • [AssemblyAI](https://www.assemblyai.com)
+
 
