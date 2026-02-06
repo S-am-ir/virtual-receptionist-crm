@@ -1,0 +1,20 @@
+# Core LiveKit Agent Framework
+livekit>=0.8.0
+livekit-agents>=0.8.0
+
+# LiveKit Plugins
+livekit-plugins-assemblyai>=0.8.0
+livekit-plugins-silero>=0.8.0
+livekit-plugins-turn-detector>=0.8.0
+
+# LLM and Agent Orchestration
+openai>=1.0.0
+langgraph>=0.0.40
+
+# Text-to-Speech
+kokoro>=0.3.0
+
+# Utilities
+python-dotenv>=1.0.0
+numpy>=1.24.0
+sounddevice>=0.4.5
