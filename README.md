@@ -1,6 +1,6 @@
 # Virtual Receptionist for CRM Systems
 
-A voice-based AI receptionist powered by LiveKit, LLMs, and real-time speech processing. This project demonstrates a production-ready conversational AI system that can manage CRM operations through natural voice interaction.
+A voice-based AI receptionist powered by LiveKit, LLMs, and real-time speech processing. This project demonstrates a conversational AI system that can manage CRM operations through natural voice interaction.
 
 ##  Overview
 
@@ -296,5 +296,6 @@ This project demonstrates:
 ---
 
 Made with [LiveKit](https://livekit.io) • [OpenRouter](https://openrouter.ai) • [LangGraph](https://langchain-ai.github.io/langgraph/) • [AssemblyAI](https://www.assemblyai.com)
+
 
 
