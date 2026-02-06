@@ -270,17 +270,6 @@ docker run -e LIVEKIT_URL=$LIVEKIT_URL ... receptionist
 - **AssemblyAI Docs**: https://www.assemblyai.com/docs
 - **LangGraph Docs**: https://langchain-ai.github.io/langgraph/
 
-## 🤝 Contributing
-
-Contributions welcome! Areas for improvement:
-
-- Additional CRM tools (email, calendar integration)
-- Streaming TTS for lower latency
-- Multi-language support
-- Web dashboard for monitoring
-- Advanced error handling
-- Production deployment guides
-
 ## 📝 License
 
 MIT License - Feel free to use in commercial projects.
@@ -306,6 +295,5 @@ This project demonstrates:
 
 ---
 
-**Built with ❤️ for the AI developer community**
-
 Made with [LiveKit](https://livekit.io) • [OpenRouter](https://openrouter.ai) • [LangGraph](https://langchain-ai.github.io/langgraph/) • [AssemblyAI](https://www.assemblyai.com)
+
